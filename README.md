@@ -56,16 +56,8 @@ The library is built using Java and contains an array of at least 20 books. It p
    - Users can check out a book by providing their name and selecting a book ID from the list of available books.
    - Users can return a book by providing the book ID from the list of checked-out books.
 
-## Setup Instructions
 
-1. **Clone the Repository**:
-   Clone the project to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/neighborhood-library.git
-   cd neighborhood-library
-
-##Interesting Piece of Code 
+## Interesting Piece of Code 
 
 public void checkOut(String name) {
     if (!isCheckedOut) {
@@ -76,7 +68,7 @@ public void checkOut(String name) {
     }
 }
 
-####This is interesting because this method in the Book class ensures that a book can only be checked out if it’s currently available, preventing errors like double-checking out a book. It’s an example of using encapsulation to protect object data and control behavior logically.
+#### This is interesting because this method in the Book class ensures that a book can only be checked out if it’s currently available, preventing errors like double-checking out a book. It’s an example of using encapsulation to protect object data and control behavior logically.
 
 ## Screen Shots
 
@@ -84,9 +76,9 @@ public void checkOut(String name) {
 [HomeScreen](screenshots/neighborhood-library_homescreen.png)
 
 ### Product Display Screen
-[Product Display](screenshots/neighborhood-library_avaliableBooks)
+[Product Display](screenshots/neighborhood-library_avaliableBooks.png)
 
 ### An error input and Error Screen
-[Error1](screenshots/neighborhood-library_error1)
+[Error1](screenshots/neighborhood-library_error1.png)
 
-[Error2](screenshots/neighborhood-library_error2)
+[Error2](screenshots/neighborhood-library_error2.png)
